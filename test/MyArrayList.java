@@ -146,7 +146,6 @@ class MyArrayList<T>
         return -1;
     }
 
-
     /**
      * Get total number of elements in the array list
      */
