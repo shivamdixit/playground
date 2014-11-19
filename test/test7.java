@@ -7,13 +7,13 @@ class newthread extends Thread {
 	t2.start();
     }
     public void run() {
-	//t2.setPriority(Thread.MAX_PRIORITY);	
+	//t2.setPriority(Thread.MAX_PRIORITY);
 	System.out.print(t1.equals(t2));
-    }    
+    }
 }
 
 class multithreaded_programing {
     public static void main(String args[]) {
-	new newthread();        
+	new newthread();
     }
 }
